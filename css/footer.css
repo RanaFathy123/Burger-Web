@@ -1,0 +1,45 @@
+footer{
+    padding: 50px 0;
+    width: 100%;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    transition: 0.3s;
+}
+footer .container p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #949ba6;
+    text-align: center;
+}
+footer .container p span{
+    color: #5243C2;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+footer .container p span:hover{
+    border-bottom: 1px solid #5243C2;
+}
+footer .container .imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+footer .container .imgs img:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.2s;
+}
+@media(width < 602px){
+    footer .container{
+        justify-content: center;
+    }
+}

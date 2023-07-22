@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process</title>
+    <!-- Links css -->
+    <link rel="stylesheet" href="../css/make_burger.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <i class="fa-solid fa-bars nav" id="nav">
+                <div class="left">
+                    <div class="top">
+                        <h1>a</h1>
+                        <p class="exit">X</p>
+                    </div>
+                    <div class="links">
+                        <a href="#" class="active">Discover</a>
+                        <a href="#">Make Your Burger</a>
+                    </div>
+                </div>
+            </i>
+            <div class="left">
+                <h1>a</h1>
+                <div class="links">
+                    <a href="#">Discover</a>
+                    <a href="#">Make Your Burger</a>
+                </div>
+            </div>
+            <div class="right">
+                <a href="#"><i class="fa-solid fa-phone"></i>Call Me Back</a>
+                <a href="#">8 800 437-87-22</a>
+                <img src="../imgs/egy.png">
+            </div>
+        </div>
+    </header>
+    
+          
+    <div class="main-content">
+        <div class="container" id="container">
+            <h1>Make Your Burger</h1>
+            <div class="main-img" id="main-img">
+                <!-- <img class="imganimation" src="../imgs/1.png" alt=""> -->
+                <!-- <img class="imganimation" src="../imgs/1.png" alt=""> -->
+                <!-- <img class="imganimation" src="../imgs/tomato.jpg" alt=""> -->
+                <img class="bread-img" src="../imgs/bun_bottom.png" alt="">
+            </div>
+            <div class="summary">
+                <div class="title">Summary</div>
+                <div class="price">
+                    <div>$ <span>0.00 </span></div>
+                    <button id="checkout">Checkout</button>
+                </div>
+                <div>Build a<span style="color: red;"> $10</span> Burger and Get a Gift</div>
+                <div class="values">
+                    <div class="icon">
+                        <img src="../imgs/Summary icons-1.png" alt="">
+                        <div class="Time">0</div>
+                        <span>min</span>
+                    </div>
+                    <div class="icon">
+                        <img src="../imgs/Summary icons-2.png" alt="">
+                        <div class="Quantity">0</div>
+                        <span>oz</span>
+                    </div>
+                    <div class="icon">
+                        <img src="../imgs/Summary icons-3.png" alt="">
+                        <div class="cal">0</div>
+                        <span>kcal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="items">
+        <div class="item">
+            <img class="Cutlet" src="../imgs/1.png" alt="">
+            <div class="type">Cutlet</div>
+            <div class="add">
+                <button class="min Cutlet" id="minCutlet">-</button>
+                <div class="zero " id="Cutlet">0</div>
+                <button class="min Cutlet" id="plsCutlet">+</button>
+            </div>
+        </div>
+        <div class="item">
+            <img class="mayo" src="../imgs/2.png" alt="">
+            <div class="type">Mayo</div>
+            <div class="add ">
+                <button class="min" id="minMayo">-</button>
+                <div class="zero" id="Mayo">0</div>
+                <button class="min" id="plsMayo">+</button>
+            </div>
+        </div>
+        <div class="item">
+            <img class="onion" src="../imgs/3.png" alt="">
+            <div class="type">Onion</div>
+            <div class="add">
+                <button class="min" id="minOnion">-</button>
+                <div class="zero" id="Onion">0</div>
+                <button class="min" id="plsOnion">+</button>
+            </div>
+        </div>
+        <div class="item">
+            <img class="tomato" src="../imgs/4.png" alt="">
+            <div class="type">Tomato</div>
+            <div class="add">
+                <button class="min" id="minTomato">-</button>
+                <div class="zero" id="Tomato">0</div>
+                <button class="min" id="plsTomato">+</button>
+            </div>
+        </div>
+        <div class="item">
+            <img class="cucumber" src="../imgs/5.png" alt="">
+            <div class="type">Cucumber</div>
+            <div class="add">
+                <button class="min" id="minCucumber">-</button>
+                <div class="zero" id="Cucumber">0</div>
+                <button class="min" id="plsCucumber">+</button>
+            </div>
+        </div>
+        <div class="item">
+            <img class="cheese" src="../imgs/6.png" alt="">
+            <div class="type">Cheese</div>
+            <div class="add">
+                <button class="min" id="minCheese">-</button>
+                <div class="zero" id="Cheese">0</div>
+                <button class="min" id="plsCheese">+</button>
+            </div>
+        </div>
+        <div class="item">
+            <img class="salad" src="../imgs/7.png" alt="">
+            <div class="type">Salad</div>
+            <div class="add">
+                <button class="min" id="minSalad">-</button>
+                <div class="zero" id="Salad">0</div>
+                <button class="min" id="plsSalad">+</button>
+            </div>
+        </div>
+        <div class="item">
+            <img class="bun" src="../imgs/8.png" alt="">
+            <div class="type">Bun</div>
+            <div class="add">
+                <button class="min" id="minBun">-</button>
+                <div class="zero" id="Bun">0</div>
+                <button class="min" id="plsBun">+</button>
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+
+
+
+    <!-- start main -->
+    <main>
+        <form action="">
+            <div class="top">
+                <div class="check">
+                    <i class="fa-solid fa-record-vinyl"></i>
+                    <h1>Checkout</h1>
+                </div>
+                <i class="fa-regular fa-circle-xmark" id="close"></i>
+            </div>
+            <div class="body">
+                <label>
+                    <i class="fa-regular fa-face-smile"></i>
+                    <input type="text" placeholder="Name">
+                </label>
+                <label>
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="text" placeholder="Phone Number">
+                </label>
+                <label>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" placeholder="Shipping Address">
+                </label>
+                <label>
+                    <input type="time" placeholder="Time to Delivery">
+                </label>
+            </div>
+            <div class="botton">
+                <button>Cancel</button>
+                <button>Checkout</button>
+            </div>
+        </form>
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <!-- end main -->
+    <footer>
+        <div class="container">
+            <p>2022. Make Your <span>Burger Privacy Policy</span> | <span>Terms & Conditions</span> </p>
+            <div class="imgs">
+                <img src="../imgs/BASE.png" alt="">
+                <img src="../imgs/BASE.png" alt="">
+                <img src="../imgs/BASE.png" alt="">
+                <img src="../imgs/BASE.png" alt="">
+                <img src="../imgs/BASE.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <script src="../js/nav.js"></script>
+    <script src="../js/make_burger.js"></script>
+</body>
+
+</html>
